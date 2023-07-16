@@ -1,0 +1,88 @@
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.header{
+    height:40%;
+    display:flex;
+    text-align:center;
+    flex-direction:column;
+    justify-content: center;
+}
+  h2{
+    color:#fff;
+        font-weight:400;
+        margin-bottom:15px;
+        font-size:3rem;
+        line-height:1.2;
+        letter-spacing:0.0083em;
+    }
+ h6{
+        color:darkgray;
+        text-align: center;
+        text-transform: capitalize;
+        font-size:0.8rem;
+        font-weight:500;
+        line-height:1.57;
+        letter-spacing:0.00714em;
+    }
+
+.banner{
+    background-image:url(../../assets/banner2.jpg);
+    height:400px;
+    width:100%;
+
+}
+
+.sub-header{
+height:50%;
+display:flex;
+align-items: center;
+}
+
+.card{
+    display:flex;
+    justify-content: center;
+    border:0;
+    background: transparent;
+    color:white;
+    padding:10px;
+    margin:50px;
+    width:100px;
+    height:200px;
+    img{
+        width:80px;
+        padding-left: 20px;
+
+    }
+    h5{
+        font-weight:400;
+        font-size: medium;
+    }
+    p{
+        font-weight:700;
+        font-size: small;
+    }
+}
+
+table {
+  width: 100%;
+
+
+td, th {
+  padding-left:30px;
+  width: 25%;
+}
+
+th{
+    background-color: rgb(14, 183, 206);
+     padding-left:40px;
+}
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+ width: 100%;
+}
